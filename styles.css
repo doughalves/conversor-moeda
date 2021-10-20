@@ -1,0 +1,96 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://t.ctcdn.com.br/PIBGd17MV306dLJQxPoCsKALdb0=/1400x788/smart/i429716.jpeg");
+  background-size: 100%;
+}
+
+.container {
+  text-align: center;
+  padding: 64px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  background-color: gray;
+  width: 20%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.conversor {
+    padding: 15px;
+    align-content: center;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  text-align: center;
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 15px 15px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.dolar{
+  border-radius: 40px;
+  background-color: darkslategrey;
+  width: 600px;
+  position: center; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.euro{
+  border-radius: 40px;
+  background-color: darkslategrey;
+  width: 600px;
+  position: center; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.bitcoin{
+  border-radius: 40px;
+  background-color: darkslategrey;
+  width: 600px;
+  position: center; 
+  margin-left: auto; 
+  margin-right: auto;
+}
